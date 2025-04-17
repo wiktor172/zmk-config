@@ -86,8 +86,9 @@
         compatible = "zmk,combos";
 
         settings {
-            bindings = <&tog 3>;
+            bindings = <&to 3>;
             key-positions = <30 33>;
+            slow-release;
         };
     };
 
