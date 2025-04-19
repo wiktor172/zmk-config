@@ -98,10 +98,10 @@
         default_layer {
             display-name = "DEFAULT";
             bindings = <
-&kp Q  &kp W  &kp F  &kp P         &kp B         &kp J        &kp L      &kp U      &kp Y    &kp SQT
-&kp A  &kp R  &kp S  &kp T         &kp G         &kp M        &kp N      &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C  &kp D         &kp V         &kp K        &kp H      &kp COMMA  &kp DOT  &kp QUESTION
-                     &kp LEFT_WIN  &kp LSHIFT    &lt 1 SPACE  &lt 1 TAB
+&kp Q               &kp W  &kp F  &kp P         &kp B         &kp J        &kp L      &kp U      &kp Y    &kp SQT
+&kp A               &kp R  &kp S  &kp T         &kp G         &kp M        &kp N      &kp E      &kp I    &kp O
+&mt LEFT_CONTROL Z  &kp X  &kp C  &kp D         &kp V         &kp K        &kp H      &kp COMMA  &kp DOT  &mt BACKSLASH QUESTION
+                                  &kp LEFT_WIN  &kp LSHIFT    &lt 1 SPACE  &lt 1 TAB
             >;
         };
 
@@ -110,7 +110,7 @@
             bindings = <
 &kp N1   &kp N2    &kp N3     &kp N4   &kp N5     &kp N6    &kp N7     &kp N8     &kp N9     &kp BACKSPACE
 &kp TAB  &kp CAPS  &kp PSCRN  &kp INS  &trans     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ENTER
-&trans   &trans    &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &bootloader
+&trans   &trans    &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp BACKSLASH
                               &trans   &kp ESC    &trans    &trans
             >;
         };
